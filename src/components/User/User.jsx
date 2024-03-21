@@ -1,7 +1,7 @@
 import "./user.css";
 
 const User = ({ user }) => {
-  const { id, name, email, phone } = user;
+  const { name, email, phone } = user;
 
   return (
     <div className="userStyle">
