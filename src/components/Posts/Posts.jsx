@@ -6,9 +6,11 @@ const Posts = () => {
   return (
     <div>
       <h2>posts: {posts.length}</h2>
-      {posts.map((post) => (
-        <Post key={post.id} post={post}></Post>
-      ))}
+      <div>
+        {posts.map((post) => (
+          <Post key={post.id} post={post}></Post>
+        ))}
+      </div>
     </div>
   );
 };
